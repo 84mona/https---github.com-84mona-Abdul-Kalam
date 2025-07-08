@@ -1,0 +1,77 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1350px;
+    background-color: rgb(236, 236, 233);
+}
+.slider {
+    position: relative;
+    width: 1350px;
+    height: 350px; /* ارتفاع اسلایدشو */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 1350px;
+    height: 100%;
+    opacity: 0; /* تصاویر غیر فعال */
+    transition: opacity 1s ease-in-out; /* انیمیشن تغییر */
+}
+
+.slide.active {
+    opacity: 1; /* تصویر فعال */
+}
+header{
+    width: 1350px;
+    height: 80px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 97%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 5 5 10px rgb(253, 253, 251);
+    
+}
+#m{
+    padding-top: 90px;
+    padding-left: 3px;
+}
+.box img{
+    width: 150px;
+    height: 100px;
+    float: left;
+    border-radius: 5px;
+}
+.box1{
+    width: 97%;
+    height: 150px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 5 5 10px rgb(253, 253, 251);
+}
+.box1 ul{
+    padding-top: 10px;
+    padding-left: 45px;
+}
+footer{
+    width: 1350px;
+    height: 70px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+}
