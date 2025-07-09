@@ -1,12 +1,13 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*کادر*/
     }
+    /* بدنه سایت */
 body{
-    width: 1350px;
     background-color: rgb(236, 236, 233);
 }
+    /* اسلایدر عکس */
  .slider {
     position: relative;/*موقعیت نسبی*/
     width: 1350px;
@@ -25,6 +26,7 @@ body{
 .slide.active {
     opacity: 1; /* تصویر فعال */
 }
+    /* هدر صفحه */
 header{
     width: 1350px;
     height: 500px;
@@ -33,7 +35,7 @@ header{
     text-align: center;
     padding-top: 30px; /*فاصله داخلی*/
 }
-
+    /* بخش 1 دکتر کلام */
 .body1{
     width: 97%;
     height: 250px;
@@ -54,6 +56,7 @@ header{
     float: left; /*شناور */
     border-radius: 5px;
 }
+    /* دستاورد ها */
 .body2{
     width: 97%;
     height: 150px;
@@ -67,6 +70,7 @@ header{
     padding-top: 10px;
     padding-left: 45px;
 }
+    /* پانوشت */
 footer{
     width: 1350px;
     height: 70px;
