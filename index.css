@@ -1,25 +1,24 @@
  *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; /*کادر*/
+    }
 body{
     width: 1350px;
     background-color: rgb(236, 236, 233);
 }
-/* .slider {
-    position: relative;
+ .slider {
+    position: relative;/*موقعیت نسبی*/
     width: 1350px;
-    height: 300px;  ارتفاع اسلایدشو 
-    overflow: hidden;
-    padding-right: 500px;}
-    */
-
+    height: 400px; /*ارتفاع اسلایدشو  */
+    overflow: hidden; /*سرریز*/
+    padding-right: 100%;
+}
 .slide {
     position: absolute;
     width: 1350px;
-    height: 350px;
-    opacity: 0; /* تصاویر غیر فعال */
+    height: 400px;
+    opacity: 0; /* روشنایی*/
     transition: opacity 1s ease-in-out; /* انیمیشن تغییر */
 }
 
@@ -28,36 +27,34 @@ body{
 }
 header{
     width: 1350px;
-    height: 430px;
+    height: 500px;
     background-color: blue;
     color: aliceblue;
     text-align: center;
-    padding-top: 80px;
-     position: relative;
-    overflow: hidden;
-    padding-right: 100%;
+    padding-top: 30px; /*فاصله داخلی*/
 }
-.box{
+
+.body1{
     width: 97%;
     height: 250px;
-    margin: 20px auto;
+    margin: 20px auto; /*فاصله بیرونی*/
     padding: 15px;
     background-color: white;
-    border-radius: 6px;
-    box-shadow: 5 5 10px rgb(253, 253, 251);
+    border-radius: 6px; /* حاشیه گرد*/
+    box-shadow: 5 5 10px rgb(253, 253, 251); /* سایه دور حاشیه*/
     
 }
-#m{
+#About{
     padding-top: 90px;
     padding-left: 3px;
 }
-.box img{
+.body1 img{
     width: 150px;
     height: 100px;
-    float: left;
+    float: left; /*شناور */
     border-radius: 5px;
 }
-.box1{
+.body2{
     width: 97%;
     height: 150px;
     margin: 20px auto;
@@ -66,7 +63,7 @@ header{
     border-radius: 6px;
     box-shadow: 5 5 10px rgb(253, 253, 251);
 }
-.box1 ul{
+.body2 ul{
     padding-top: 10px;
     padding-left: 45px;
 }
